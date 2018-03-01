@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.wildcodeschool.simpleuiquest.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:text="@string/welcome_to_wild_code_school" />
+
+    <CheckBox
+        android:id="@+id/buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/yes_i_want_to_be_a_wilder" />
+
+    <AutoCompleteTextView
+        android:id="@+id/firstname"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname"
+        android:enabled="false"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/lastname"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/lastname"
+        android:enabled="false"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accept"
+        android:onClick="acceptance"
+        android:enabled="false"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp">
+
+    <TextView
+        android:id="@+id/congratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4286f4"
+        android:visibility="invisible"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

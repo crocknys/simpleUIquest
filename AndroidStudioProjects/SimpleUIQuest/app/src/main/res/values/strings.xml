@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleUIQuest</string>
+    <string name="accept">accept</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="yes_i_want_to_be_a_wilder">Yes i want to be a wilder</string>
+    <string name="welcome_to_wild_code_school">welcome to wild code school</string>
+    <string name="congrats">Congratulation: </string>
+    <string name="field_empty">Please fill all the fields</string>
+</resources>
